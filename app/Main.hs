@@ -20,9 +20,10 @@ runDice dice = testDice dice
     >>= renderDiceResults 
 
 main :: IO ()
-main = 
-    loadBMP "./pepes.bmp" 
-    >>= renderSet 1000 1000 2000
+main = -- renderSetBitmap 800 800 100
+    -- print $ isBrot 500 (-1, 0)
+    loadBMP "./pepe.bmp" 
+    >>= renderSet 500 500 50
     -- plot X11 $ Data2D [Title "Some", Style Dots] [Range (-5) 5] dt
     --renderSet 800 800 20
     -- renderSet 100 100 500

@@ -36,6 +36,9 @@ packages:
 #
 extra-deps:
   - easyplot-1.0@sha256:3fec6ccf425b370ab668eb342bc4cd92777880653e27a982db7b225fd007cb2b,1936
+  - gloss-raster-1.13.1.1@sha256:a87a2cfbce988f439b635fe2587a249a45fdeaa9e804643db29a5fed4c2e0408,1455
+  - repa-3.4.1.4@sha256:70ef4758937baa29be1ac0a78ecbccf341b3f276c9efb632b4829eea80445e2d,3315
+  - hip-1.5.6.0@sha256:296c55622f62485422c0a593c7306af1a5abf8ba9f866dcdffc281b01eba65d7,6988
 
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git

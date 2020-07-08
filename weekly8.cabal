@@ -37,6 +37,7 @@ library
       base >=4.7 && <5
       , random >= 1.2.0
       , gloss >= 1.13.1.1
+      , gloss-raster >= 1.13.1.1
       , easyplot >= 1.0
   default-language: Haskell2010
 
@@ -52,6 +53,7 @@ executable weekly8-exe
     , weekly8
     , random >= 1.2.0
     , gloss >= 1.13.1.1
+    , gloss-raster >= 1.13.1.1
     , easyplot >= 1.0
   default-language: Haskell2010
 
@@ -67,5 +69,6 @@ test-suite weekly8-test
       base >=4.7 && <5
     , weekly8
     , gloss >= 1.13.1.1
+    , gloss-raster >= 1.13.1.1
     , easyplot >= 1.0
   default-language: Haskell2010
